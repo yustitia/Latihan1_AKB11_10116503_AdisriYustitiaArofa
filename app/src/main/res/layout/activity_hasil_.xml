@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hasil_Activity"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+        <TextView
+            android:id="@+id/txt_isian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp">
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/custom_botton"/>
+    </LinearLayout>
+
+</LinearLayout>

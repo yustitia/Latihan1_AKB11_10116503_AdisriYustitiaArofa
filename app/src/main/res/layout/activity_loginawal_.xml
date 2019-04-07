@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginawal_Activity"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_weight="2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="keluarga"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kata_kata2"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/txt_nomor"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:background="@drawable/custom_edittext"
+            android:textSize="20dp"
+            android:text="A1B2C3"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kata_kata3"
+            android:layout_marginTop="20dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/btn_masuk2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_botton"
+            android:text="MASUK"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kata_kata4"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beli kode keluarga disini"
+            android:layout_marginTop="15dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button2"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
